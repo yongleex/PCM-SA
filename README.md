@@ -1,7 +1,7 @@
 # PCM-SA: Projection Concentration Maximization with Smooth Annealing for EBIV
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the code for the submitted paper *[Smooth Annealing Projection Concentration Maximization for Event-based Velocimetr](https://github.com/yongleex/PCM-SA)* and an accepted conference abstract *[A Projection Concentration Maximization Method for Event-based Imaging Velocimetry](https://github.com/yongleex/PCM-SA/blob/main/data/pcm.pdf).  In this work, we propose an event-based velocimetry framework that models the event projection distribution using continuous mixture of Gaussians, and formulates velocity estimation as a **concentration maximization problem**. The solution is obtained via Newton–Raphson iterative updates combined with **smooth annealing**.  
+This repository contains the code for the submitted paper *[Smooth Annealing Projection Concentration Maximization for Event-based Velocimetry](https://github.com/yongleex/PCM-SA)* and an accepted conference abstract *[A Projection Concentration Maximization Method for Event-based Imaging Velocimetry](https://github.com/yongleex/PCM-SA/blob/main/data/pcm.pdf)*.  In this work, we propose an event-based velocimetry framework that models the event projection distribution using continuous mixture of Gaussians, and formulates velocity estimation as a **concentration maximization problem**. The solution is obtained via Newton–Raphson iterative updates combined with **smooth annealing**.  
 
 
 ## Motivation
