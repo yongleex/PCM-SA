@@ -40,7 +40,8 @@ def render_particles_image(x, y, d, l, W=256, H=256, device=device):
     # patch 相关
     sigma= d/4.0
     M = int(torch.ceil(6 * torch.max(sigma) + 3).item()) # patch_size
-    pad = M//2 + 1
+    # pad = M//2 + 1
+    pad = M//2
     
     # 构建patch网格
     ax = torch.arange(M, device=device) - pad  # [-pad,...,pad]
